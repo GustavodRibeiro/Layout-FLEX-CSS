@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
+    <title>Layout 18</title>
     <style>
         body 
         {
@@ -20,7 +20,7 @@
         }
         .fundo
         {
-            width: 100%;
+            width: 70%;
             height: 100vh;
             background-color: rgb(20, 97, 185);
             display: flex;
@@ -34,43 +34,67 @@
         .cima
         {
             width: 80%;
-            height: 25vh;
+            height: 60%;
             background-color: rgb(20, 97, 185);
             display: flex;
             flex-direction: row;
             justify-content: space-between; 
+        }
+        .d7
+        {
+            width: 80%;
+            height: 25%;
+            background-color: rgb(20, 97, 185);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+        }
+        .d8
+        {
+            height: 100%;
+            width: 60%;
+            background-color: yellow;
+        }
+        .d9
+        {
+            height: 100%;
+            width: 25%;
+            background-color: yellow;
         }
         .d1
         {
-            width: 25%;
             height: 100%;
+            width: 25%;
             background-color: yellow;
         }
-        .meio
+        .d2
         {
-            width: 80%;
-            height: 25vh;
-            background-color: yellow;
-        }
-        .baixo
-        {
-            width: 80%;
-            height: 25vh;
+            width: 60%;
+            height: 100%;
             background-color: rgb(20, 97, 185);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+        }
+        .d6
+        {
+            height: 45%;
+            width: 100%;
+            background-color: yellow;
+        }
+        .quadrados
+        {
+            height: 40%;
+            width: 100%;
             display: flex;
             flex-direction: row;
             justify-content: space-between; 
+
         }
-        .d4
+        .d5
         {
-            width: 25%;
             height: 100%;
-            background-color: yellow; 
-        }
-        .d3
-        {
-            width: 65%;
-            height: 100%;
+            width: 35%;
             background-color: yellow; 
         }
     </style>
@@ -78,15 +102,19 @@
 <body>
     <div class="fundo">
         <div class="cima">
-            <div class="d1"></div>
-            <div class="d1"></div>
-            <div class="d1"></div>
+            <div class="d1"></div> 
+            <div class="d2">
+                <div class="quadrados"> 
+                    <div class="d5"></div> 
+                    <div class="d5"></div> 
+                </div> 
+                <div class="d6"></div>
+            </div> 
         </div>
-        <div class="meio"></div>
-        <div class="baixo">
-            <div class="d3"></div>
-            <div class="d4"></div>
-        </div>
+        <div class="d7">
+            <div class="d8"></div>
+            <div class="d9"></div>
+        </div>   
     </div>
 </body>
 </html>
